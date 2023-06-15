@@ -1,0 +1,2425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megabox</title>
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+    <!-- 파비콘 -->
+    <link
+      rel="shortcut icon"
+      href="https://play-lh.googleusercontent.com/DN9IYRCZJ1Qw9Vzz9cZI-9X-sVJwVRLsjp7GDOKSYBkoo4C1JPR5OqydY-oKw6jFprQ=w240-h480-rw"
+      type="image/x-icon"
+    />
+    <!-- html5shiv : 시멘틱태그(header, section, article, address, footer....)를 구버전 브라우저에서는 시멘틱태그 인식하지 못하는경우
+        html5shiv가 그 시맨트태그를 인식할 수 있게 한다 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="header clearfix">
+            <h1>
+              <a href="#">
+                <em><img src="img/logo.png" alt="Megabox" /></em>
+                <strong
+                  ><img src="img/logo-sub.png" alt="LIFE THEATER"
+                /></strong>
+              </a>
+            </h1>
+            <!-- 모바일 메뉴 -->
+            <nav id="mNav">
+              <h2 class="ir">메가박스 전체메뉴</h2>
+              <a href="#" class="ham"><span></span></a>
+            </nav>
+            <!-- #mNav end -->
+            <div class="nav">
+              <ul class="clearfix">
+                <li><a href="#">영화</a></li>
+                <li><a href="#">큐레이션</a></li>
+                <li><a href="#">영화관</a></li>
+                <li><a href="#">특별관</a></li>
+                <li><a href="#">스토어</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">로그인</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- .header end -->
+        </div>
+        <!-- .row end -->
+      </div>
+      <!-- .container end -->
+    </div>
+    <!-- #header end -->
+
+    <section id="banner">
+      <div class="banner_menu">
+        <h2 class="ir">메가박스 전체메뉴</h2>
+        <div class="container">
+          <div class="row clearfix">
+            <div class="bm_left">
+              <ul>
+                <li class="total"><a href="#">전체메뉴</a></li>
+                <li class="line"><a href="#">필름 소사이어티</a></li>
+                <li><a href="#">클래식 소사이어티</a></li>
+              </ul>
+            </div>
+            <!-- .bm_left end -->
+            <div class="bm_right">
+              <ul>
+                <li class="line"><a href="#">고객센터</a></li>
+                <li class="line"><a href="#">멤버쉽</a></li>
+                <li><a href="#">VIP</a></li>
+              </ul>
+              <ul>
+                <li class="white"><a href="#">상영 시간표</a></li>
+                <li class="purple"><a href="#">빠른 예매</a></li>
+              </ul>
+            </div>
+            <!-- .bm_right end -->
+          </div>
+          <!-- .row end -->
+        </div>
+      </div>
+      <!-- .banner_menu end -->
+      <div class="slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide ss1">
+            <div class="container">
+              <div class="row"></div>
+            </div>
+          </div>
+          <div class="swiper-slide ss2">
+            <div class="container">
+              <div class="row"></div>
+            </div>
+          </div>
+          <div class="swiper-slide ss3">
+            <div class="container">
+              <div class="row"></div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
+    <!-- #banner end -->
+
+    <section id="movie">
+      <div class="container">
+        <div class="row">
+          <h2 class="ir">영화 예매</h2>
+          <div class="movie">
+            <div class="movie_title">
+              <ul class="clearfix">
+                <li class="active"><a href="#">박스오피스</a></li>
+                <li><a href="#">최신개봉작</a></li>
+                <li><a href="#">상영예정작</a></li>
+                <li><a href="#">큐레이션</a></li>
+                <li class="bar"></li>
+              </ul>
+            </div>
+            <!-- //movie_title -->
+            <div class="movie_chart">
+              <div class="swiper-container swiper-container2">
+                <div class="swiper-wrapper">
+                  <!-- 1 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster01.jpg"
+                          srcset="img/poster01@2.jpg 2x"
+                          alt="범죄도시3"
+                        />
+                      </figure>
+                      <div class="rank"><strong>1</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a15 ir">15세이상관람가</span>
+                        <strong>범죄도시3</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+                  <!-- //swiper-slide -->
+
+                  <!-- 2 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster02.jpg"
+                          srcset="img/poster02@2.jpg 2x"
+                          alt="인어공주"
+                        />
+                      </figure>
+                      <div class="rank">
+                        <strong>2</strong>
+                      </div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //.poater -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir"> 전체관람가 </span>
+                        <strong> 인어공주 </strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //.info -->
+                  </div>
+
+                  <!-- 3 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster03.jpg"
+                          srcset="img/poster03@2.jpg 2x"
+                          alt="남은 인생 10년"
+                        />
+                      </figure>
+                      <div class="rank"><strong>3</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>남은 인생 10년</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 4 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster04.jpg"
+                          srcset="img/poster04@2.jpg 2x"
+                          alt="분노의 질주"
+                        />
+                      </figure>
+                      <div class="rank"><strong>4</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a15 ir">15세이상관람가</span>
+                        <strong>분노의 질주</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 5 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster05.jpg"
+                          srcset="img/poster05@2.jpg 2x"
+                          alt="SUGA Agust D TOUR D-DAY in JAPAN LIVE VIEWING "
+                        />
+                      </figure>
+                      <div class="rank"><strong>5</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong
+                          >SUGA Agust D TOUR D-DAY in JAPAN LIVE VIEWING
+                        </strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 6 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster06.jpg"
+                          srcset="img/poster06@2.jpg 2x"
+                          alt="가디언즈오브갤럭시"
+                        />
+                      </figure>
+                      <div class="rank"><strong>6</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">boutique</span>
+                      </div>
+                    </div>
+                    <!-- poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>가디언즈오브갤럭시</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 7 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster07.jpg"
+                          srcset="img/poster07@2.jpg 2x"
+                          alt="극장판 포켓몬스터"
+                        />
+                      </figure>
+                      <div class="rank">
+                        <strong>7</strong>
+                      </div>
+                      <div class="mx">
+                        <span class="icon m ir">mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster  -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong>극장판 포켓몬스터</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 8 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster08.jpg"
+                          srcset="img/poster08@2.jpg 2x"
+                          alt="스즈메의 문단속"
+                        />
+                      </figure>
+                      <div class="rank"><strong>8</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong>스즈메의 문단속</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //info -->
+                  </div>
+                </div>
+              </div>
+              <!-- 첫번째슬라이드 -->
+
+              <div class="swiper-container swiper-container2">
+                <div class="swiper-wrapper">
+                  <!-- 9 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster09.jpg"
+                          srcset="img/poster09@2.jpg 2x"
+                          alt="메이플스토리"
+                        />
+                      </figure>
+                      <div class="rank"><strong>9</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">Mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a15 ir">15세이상관람가</span>
+                        <strong>메이플스토리</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 10 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster10.jpg"
+                          srcset="img/poster10@2.jpg 2x"
+                          alt="라이드온"
+                        />
+                      </figure>
+                      <div class="rank"><strong>10</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>라이드온</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 11 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster11.jpg"
+                          srcset="img/poster11@2.jpg 2x"
+                          alt="탑건"
+                        />
+                      </figure>
+                      <div class="rank">
+                        <strong>11</strong>
+                      </div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a15 ir">15세이상관람가</span>
+                        <strong>탑건</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 12 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster12.jpg"
+                          srcset="img/poster12@2.jpg 2x"
+                          alt="메리 마이 데드 바디"
+                        />
+                      </figure>
+                      <div class="rank"><strong>12</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>메리 마이 데드 바디</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 13 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster13.jpg"
+                          srcset="img/poster13@2.jpg 2x"
+                          alt="드림팰리스"
+                        />
+                      </figure>
+                      <div class="rank"><strong>13</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">Mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>드림팰리스</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 14 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster14.jpg"
+                          srcset="img/poster14@2.jpg 2x"
+                          alt="매그놀리아"
+                        />
+                      </figure>
+                      <div class="rank"><strong>14</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">Mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a19 ir">19세이상관람가</span>
+                        <strong>매그놀리아</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 15 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster15.jpg"
+                          srcset="img/poster15@2.jpg 2x"
+                          alt="뱀파이어와의 인터뷰"
+                        />
+                      </figure>
+                      <div class="rank">
+                        <strong>15</strong>
+                      </div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a19 ir">19세이상관람가</span
+                        ><strong>뱀파이어와의 인터뷰</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //info -->
+                  </div>
+
+                  <!-- 16 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster16.jpg"
+                          srcset="img/poster16@2.jpg 2x"
+                          alt="말없는 소녀"
+                        />
+                      </figure>
+                      <div class="rank"><strong>16</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong>말없는 소녀</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+                </div>
+              </div>
+              <!-- 두번째슬라이드 -->
+
+              <div class="swiper-container swiper-container2">
+                <div class="swiper-wrapper">
+                  <!-- 17 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster17.jpg"
+                          srcset="img/poster17@2.jpg 2x"
+                          alt="어 퓨 굿 맨"
+                        />
+                      </figure>
+                      <div class="rank"><strong>17</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a15 ir">15세이상관람가</span>
+                        <strong>어 퓨 굿 맨</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //info -->
+                  </div>
+
+                  <!-- 18 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster18.jpg"
+                          srcset="img/poster18@2.jpg 2x"
+                          alt="스프린터"
+                        />
+                      </figure>
+                      <div class="rank"><strong>18</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- poster end -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>스프린터</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- infor end -->
+                  </div>
+
+                  <!-- 19 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster19.jpg"
+                          srcset="img/poster19@2.jpg 2x"
+                          alt="바닐라 스카이"
+                        />
+                      </figure>
+                      <div class="rank"><strong>19</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- poster end -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a19 ir">19세이상관람가</span>
+                        <strong>바닐라 스카이</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- infor end -->
+                  </div>
+
+                  <!-- 20 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster20.jpg"
+                          srcset="img/poster20@2.jpg 2x"
+                          alt="아기공룡둘리-얼음별대모험 리마스터링 "
+                        />
+                      </figure>
+                      <div class="rank"><strong>20</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">Mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong>아기공룡둘리-얼음별대모험 리마스터링</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 21 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster16.jpg"
+                          srcset="img/poster16@2.jpg 2x"
+                          alt="말없는 소녀"
+                        />
+                      </figure>
+                      <div class="rank"><strong>16</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong>말없는 소녀</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 22 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster15.jpg"
+                          srcset="img/poster15@2.jpg 2x"
+                          alt="뱀파이어와의 인터뷰"
+                        />
+                      </figure>
+                      <div class="rank">
+                        <strong>15</strong>
+                      </div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a19 ir">19세이상관람가</span
+                        ><strong>뱀파이어와의 인터뷰</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //info -->
+                  </div>
+
+                  <!-- 23 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster14.jpg"
+                          srcset="img/poster14@2.jpg 2x"
+                          alt="매그놀리아"
+                        />
+                      </figure>
+                      <div class="rank"><strong>14</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">Mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a19 ir">19세이상관람가</span>
+                        <strong>매그놀리아</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 24 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster13.jpg"
+                          srcset="img/poster13@2.jpg 2x"
+                          alt="드림팰리스"
+                        />
+                      </figure>
+                      <div class="rank"><strong>13</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">Mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>드림팰리스</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+                </div>
+              </div>
+              <!-- 세번째슬라이드 -->
+              <div class="swiper-container swiper-container2">
+                <div class="swiper-wrapper">
+                  <!-- 25 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster08.jpg"
+                          srcset="img/poster08@2.jpg 2x"
+                          alt="스즈메의 문단속"
+                        />
+                      </figure>
+                      <div class="rank"><strong>8</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong>스즈메의 문단속</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //info -->
+                  </div>
+
+                  <!-- 26 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster07.jpg"
+                          srcset="img/poster07@2.jpg 2x"
+                          alt="극장판 포켓몬스터"
+                        />
+                      </figure>
+                      <div class="rank">
+                        <strong>7</strong>
+                      </div>
+                      <div class="mx">
+                        <span class="icon m ir">mx</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster  -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong>극장판 포켓몬스터</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 27 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster06.jpg"
+                          srcset="img/poster06@2.jpg 2x"
+                          alt="가디언즈오브갤럭시"
+                        />
+                      </figure>
+                      <div class="rank"><strong>6</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">boutique</span>
+                      </div>
+                    </div>
+                    <!-- poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>가디언즈오브갤럭시</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 28 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster05.jpg"
+                          srcset="img/poster05@2.jpg 2x"
+                          alt="SUGA Agust D TOUR D-DAY in JAPAN LIVE VIEWING "
+                        />
+                      </figure>
+                      <div class="rank"><strong>5</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir">전체관람가</span>
+                        <strong
+                          >SUGA Agust D TOUR D-DAY in JAPAN LIVE VIEWING
+                        </strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 29 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster04.jpg"
+                          srcset="img/poster04@2.jpg 2x"
+                          alt="분노의 질주"
+                        />
+                      </figure>
+                      <div class="rank"><strong>4</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a15 ir">15세이상관람가</span>
+                        <strong>분노의 질주</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+
+                  <!-- 30 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster03.jpg"
+                          srcset="img/poster03@2.jpg 2x"
+                          alt="남은 인생 10년"
+                        />
+                      </figure>
+                      <div class="rank"><strong>3</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a12 ir">12세이상관람가</span>
+                        <strong>남은 인생 10년</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 31 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster02.jpg"
+                          srcset="img/poster02@2.jpg 2x"
+                          alt="인어공주"
+                        />
+                      </figure>
+                      <div class="rank">
+                        <strong>2</strong>
+                      </div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //.poater -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon all ir"> 전체관람가 </span>
+                        <strong> 인어공주 </strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //.info -->
+                  </div>
+
+                  <!-- 32 -->
+                  <div class="swiper-slide">
+                    <div class="poster">
+                      <figure>
+                        <img
+                          src="img/poster01.jpg"
+                          srcset="img/poster01@2.jpg 2x"
+                          alt="범죄도시3"
+                        />
+                      </figure>
+                      <div class="rank"><strong>1</strong></div>
+                      <div class="mx">
+                        <span class="icon m ir">MX</span>
+                        <span class="icon b ir">Boutique</span>
+                      </div>
+                    </div>
+                    <!-- //poster -->
+                    <div class="infor">
+                      <h3>
+                        <span class="icon a15 ir">15세이상관람가</span>
+                        <strong>범죄도시3</strong>
+                      </h3>
+                      <div class="info_btn">
+                        <a href="#">상세보기</a>
+                        <a href="#">예매하기</a>
+                      </div>
+                    </div>
+                    <!-- //infor -->
+                  </div>
+                  <!-- //swiper-slide -->
+                </div>
+              </div>
+              <!-- 네번째슬라이드 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- movie end -->
+
+    <section id="event">
+      <div class="container">
+        <div class="row">
+          <div class="event clearfix">
+            <h2>새로운 이벤트</h2>
+            <div class="event_left clearfix">
+              <div class="event_slide">
+                <img
+                  src="img/event01.jpg"
+                  srcset="img/event01@2.jpg 2x"
+                  alt="시티 팩키지"
+                />
+              </div>
+              <!-- event slide end -->
+              <div class="event_box1">
+                <img
+                  src="img/event02.jpg"
+                  srcset="img/event02@2.jpg 2x"
+                  alt="남포항점 시즌할인"
+                />
+              </div>
+              <!-- //event_box1 -->
+              <div class="event_box2">
+                <img
+                  src="img/event03.jpg"
+                  srcset="img/event03@2.jpg 2x"
+                  alt="설선물 이수점 전용 관람권 런칭"
+                />
+              </div>
+              <!-- //event_box2 -->
+            </div>
+            <!-- event_left end -->
+            <div class="event_right">
+              <img
+                src="img/event04.jpg"
+                srcset="img/event04@2.jpg 2x"
+                alt="사표대신 영화표"
+              />
+            </div>
+            <!-- event_right end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //event -->
+
+    <section id="openning">
+      <div class="container">
+        <div class="row">
+          <div class="openning">
+            <h2><span class="ir icon grand">Grand Openning</span></h2>
+            <strong class="ir icon date">2023.08~2023.09</strong>
+            <p class="desc">
+              LIFE THEATHER로 새롭게 시작하는 메가박스로 만나보세요!
+            </p>
+
+            <div class="open_box clearfix">
+              <div>
+                <h3>리뉴얼 오픈</h3>
+                <p><em>경기도</em><strong>안양</strong>08월 17일</p>
+              </div>
+              <div>
+                <h3>리뉴얼 오픈</h3>
+                <p><em>경기도</em><strong>인덕원 사거리</strong>09월 01일</p>
+              </div>
+              <div>
+                <h3>리뉴얼 오픈</h3>
+                <p><em>경기도</em><strong>용인테크로밸리</strong>10월 15일</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //openning -->
+
+    <section id="new">
+      <div class="container">
+        <div class="row">
+          <div class="new">
+            <h2>새로운 영화</h2>
+            <div class="new_left">
+              <div class="play" data-youtube="l8BpJ8vBDZI" id="showTrailer">
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 1417.32 1417.32"
+                  style="enable-background: new 0 0 1417.32 1417.32"
+                  xml:space="preserve"
+                >
+                  <style type="text/css">
+                    .st0 {
+                      opacity: 0.3;
+                      fill: #ffffff;
+                    }
+                    .st1 {
+                      fill: #ffffff;
+                    }
+                  </style>
+                  <circle class="st0" cx="708.66" cy="708.66" r="698.4" />
+                  <path
+                    class="st1"
+                    d="M888.11,729.69L553.49,922.88c-16.19,9.35-36.42-2.34-36.42-21.03V515.47c0-18.69,20.23-30.37,36.42-21.03
+	l334.62,193.19C904.3,696.98,904.3,720.34,888.11,729.69z"
+                  />
+                </svg>
+              </div>
+              <!-- play end -->
+            </div>
+            <!-- new_left end -->
+            <div class="new_right">
+              <h3 class="title">로그 원:스타워즈 스토리</h3>
+              <span class="release">2023년 9월 1일</span>
+              <div class="star">
+                <span class="icon star1"></span>
+                <span class="icon star1"></span>
+                <span class="icon star1"></span>
+                <span class="icon star2"></span>
+                <span class="icon star0"></span>
+                <strong>7.5/10</strong>
+              </div>
+              <!-- star end -->
+              <ul class="summary">
+                <li class="gener">
+                  <span>액션</span>
+                  <span>미국, 오스트레일리아</span>
+                </li>
+                <li class="age">
+                  <span>142분</span>
+                  <span>12세이상 관람가</span>
+                </li>
+                <li class="desc">
+                  단숨에 행성 하나를 파괴할 위력을 지닌 데스 스타가 완성되기
+                  전에 설계도를 훔쳐내야 하는 이번 작전의 성공 확률은 고작 2.4%.
+                  생사도 모르는 아버지에 얽힌 비밀을 밝히려는 진을 ...비롯해
+                  유능한 정보 요원 ‘카시안’(디에고 루나), 두 눈이 멀었지만
+                  탁월한 무술 실력을 지닌 ‘치루트’(견자단), 전투 베테랑
+                  ‘베이즈’, 파일럿 ‘보디’, 시니컬한 드로이드 ‘K-2SO’ 까지 합류,
+                  거대한 전쟁을 끝낼 ‘로그 원’이 이끄는 가장 비밀스런 작전이
+                  시작되는데…
+                </li>
+              </ul>
+              <!-- summary end -->
+
+              <div class="select clearfix">
+                <div class="s1">
+                  <label for="udate" class="ir">날짜</label>
+                  <input
+                    type="text"
+                    id="udate"
+                    name="udate"
+                    value="2023년 9월 1일"
+                    class="ui_select2"
+                  />
+                </div>
+                <!-- s1 end -->
+                <div class="s2">
+                  <label for="utime" class="ir">시간</label>
+                  <select name="utime" id="utime" class="ui_select2">
+                    <option value="오전 0:00">오전 0:00</option>
+                    <option value="오전 1:00">오전 1:00</option>
+                    <option value="오전 2:00">오전 2:00</option>
+                    <option value="오전 3:00">오전 3:00</option>
+                    <option value="오전 4:00">오전 4:00</option>
+                    <option value="오전 5:00">오전 5:00</option>
+                    <option value="오전 6:00">오전 6:00</option>
+                    <option value="오전 7:00">오전 7:00</option>
+                    <option value="오전 8:00">오전 8:00</option>
+                    <option value="오전 9:00">오전 9:00</option>
+                    <option value="오전 10:00">오전 10:00</option>
+                    <option value="오전 11:00">오전 11:00</option>
+                    <option value="오후 12:00">오후 12:00</option>
+                    <option value="오후 1:00">오후 1:00</option>
+                    <option value="오후 2:00">오후 2:00</option>
+                    <option value="오후 3:00">오후 3:00</option>
+                    <option value="오후 4:00">오후 4:00</option>
+                    <option value="오후 5:00">오후 5:00</option>
+                    <option value="오후 6:00">오후 6:00</option>
+                    <option value="오후 7:00">오후 7:00</option>
+                    <option value="오후 8:00">오후 8:00</option>
+                    <option value="오후 9:00">오후 9:00</option>
+                    <option value="오후 10:00">오후 10:00</option>
+                    <option value="오후 11:00">오후 11:00</option>
+                  </select>
+                </div>
+                <!-- s2 end -->
+                <div class="s3">
+                  <label for="utext" class="ir"
+                    >주소 또는 도로명을 입력해주세요.</label
+                  >
+                  <input
+                    type="text"
+                    id="utext"
+                    name="utext"
+                    class="ui_input3"
+                    placeholder="주소 또는 도로명을 입력해주세요."
+                  />
+                </div>
+              </div>
+              <!-- select end -->
+              <div class="btn clearfix">
+                <a href="#" class="white">좌석할인</a>
+                <a href="#" class="purple">예매하기</a>
+              </div>
+            </div>
+            <!-- new_right end -->
+          </div>
+          <!-- .new end -->
+        </div>
+        <!-- .row end -->
+      </div>
+    </section>
+    <!-- //new -->
+
+    <section id="help">
+      <div class="container">
+        <div class="row">
+          <div class="help clearfix">
+            <article class="help_box1">
+              <h3>공지사항</h3>
+              <div class="notice">
+                <ul class="clearfix">
+                  <li class="active">
+                    <a href="#">전체공지</a>
+                    <ul>
+                      <li>
+                        <dt>
+                          <strong>전체</strong>
+                          <em>2023.10.10</em>
+                        </dt>
+                        <dd>
+                          [무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~
+                        </dd>
+                      </li>
+                      <li>
+                        <dt>
+                          <strong>전체</strong>
+                          <em>2023.10.12</em>
+                        </dt>
+                        <dd>
+                          [라이프퓨밍]그대가 조국 100만 돌파기념
+                          [라이프퓨밍]그대가 조국 100만 돌파기념
+                          [라이프퓨밍]그대가 조국 100만 돌파기념
+                        </dd>
+                      </li>
+                      <li>
+                        <dt>
+                          <strong>전체</strong>
+                          <em>2023.11.12</em>
+                        </dt>
+                        <dd>
+                          [공지]2023년 VIP미션 이벤트 [공지]2023년 VIP미션
+                          이벤트 [공지]2023년 VIP미션 이벤트
+                        </dd>
+                      </li>
+                      <li>
+                        <dt>
+                          <strong>전체</strong>
+                          <em>2023.12.12</em>
+                        </dt>
+                        <dd>
+                          [공지]2023년 VIP미션 이벤트 [공지]2023년 VIP미션
+                          이벤트 [공지]2023년 VIP미션 이벤트
+                        </dd>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">영화관광지</a>
+                    <ul>
+                      <li>
+                        <dt>
+                          <strong>이벤트</strong>
+                          <em>2023.10.10</em>
+                        </dt>
+                        <dd>
+                          [무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~[무대인사]범죄도시3(3주차)~
+                        </dd>
+                      </li>
+                      <li>
+                        <dt>
+                          <strong>이벤트</strong>
+                          <em>2023.10.12</em>
+                        </dt>
+                        <dd>
+                          [라이프퓨밍]그대가 조국 100만 돌파기념
+                          [라이프퓨밍]그대가 조국 100만 돌파기념
+                          [라이프퓨밍]그대가 조국 100만 돌파기념
+                        </dd>
+                      </li>
+                      <li>
+                        <dt>
+                          <strong>이벤트</strong>
+                          <em>2023.11.12</em>
+                        </dt>
+                        <dd>
+                          [공지]2023년 VIP미션 이벤트 [공지]2023년 VIP미션
+                          이벤트 [공지]2023년 VIP미션 이벤트
+                        </dd>
+                      </li>
+                      <li>
+                        <dt>
+                          <strong>이벤트</strong>
+                          <em>2023.12.12</em>
+                        </dt>
+                        <dd>
+                          [공지]2023년 VIP미션 이벤트 [공지]2023년 VIP미션
+                          이벤트 [공지]2023년 VIP미션 이벤트
+                        </dd>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <!-- help_box1 -->
+            <article class="help_box2">
+              <h3>메가박스 할인카드</h3>
+              <div class="card">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <span
+                        ><img
+                          src="img/card01.jpg"
+                          srcset="img/card01@2.jpg x2"
+                          alt="card1"
+                      /></span>
+                      <strong>T멤버쉽 일반</strong>
+                      <em>영화 2,000원 현장 즉시 할인 <br />(1일 5매)</em>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span
+                        ><img
+                          src="img/card02.jpg"
+                          srcset="img/card02@2.jpg x2"
+                          alt="card2"
+                      /></span>
+                      <strong>LG U+</strong>
+                      <em>영화 2,000원 현장 즉시 할인 <br />(1일 5매)</em>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span
+                        ><img
+                          src="img/card03.jpg"
+                          srcset="img/card03@2.jpg x2"
+                          alt="card3"
+                      /></span>
+                      <strong>SK멤버쉽 일반</strong>
+                      <em>영화 2,000원 현장 즉시 할인 <br />(1일 5매)</em>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <!-- help_box2 -->
+            <article class="help_box3">
+              <h3>고객센터</h3>
+              <div class="service">
+                <ul class="clearfix">
+                  <li>
+                    <span class="img_svg">
+                      <svg
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 110.89 111.31"
+                        style="enable-background: new 0 0 110.89 111.31"
+                        xml:space="preserve"
+                      >
+                        <style type="text/css">
+                          .st0 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-miterlimit: 10;
+                          }
+                          .st1 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st2 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st3 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st4 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st5 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st6 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st7 {
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st8 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st9 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st10 {
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-miterlimit: 10;
+                          }
+                          .st11 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st12 {
+                            stroke: #715ea6;
+                            stroke-width: 2.7781;
+                            stroke-miterlimit: 10;
+                          }
+                          .st13 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st14 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st15 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: bevel;
+                            stroke-miterlimit: 10;
+                          }
+                          .st16 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st17 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st18 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st19 {
+                            fill: #ffffff;
+                            stroke: #715fa6;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                        </style>
+                        <g>
+                          <polygon
+                            class="st13"
+                            points="106.57,106.23 4.83,106.23 4.83,40.83 55.1,15.28 106.57,40.83 	"
+                          />
+                          <polyline
+                            class="st14"
+                            points="22.73,57.35 22.73,5.04 89.27,5.04 89.27,57.18 	"
+                          />
+                          <path
+                            class="st15"
+                            d="M5.14,106.23l37.61-28.64c7.83-5.96,18.68-5.96,26.51,0l37.61,28.64H5.14z"
+                          />
+                          <line
+                            class="st16"
+                            x1="22.73"
+                            y1="58.03"
+                            x2="42.75"
+                            y2="77.58"
+                          />
+                          <line
+                            class="st16"
+                            x1="5.14"
+                            y1="40.83"
+                            x2="22.73"
+                            y2="58.03"
+                          />
+                          <line
+                            class="st13"
+                            x1="106.57"
+                            y1="40.83"
+                            x2="68.95"
+                            y2="77.58"
+                          />
+                          <line
+                            class="st17"
+                            x1="33.38"
+                            y1="15.28"
+                            x2="55.1"
+                            y2="15.28"
+                          />
+                          <line
+                            class="st17"
+                            x1="54.64"
+                            y1="27.37"
+                            x2="81.07"
+                            y2="27.37"
+                          />
+                          <line
+                            class="st17"
+                            x1="29.46"
+                            y1="43.04"
+                            x2="68.43"
+                            y2="43.04"
+                          />
+                        </g>
+                      </svg>
+                    </span>
+                    <strong>1:1 문의</strong>
+                  </li>
+                  <li>
+                    <span class="img_svg"
+                      ><svg
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 125.83 105.35"
+                        style="enable-background: new 0 0 125.83 105.35"
+                        xml:space="preserve"
+                      >
+                        <style type="text/css">
+                          .st0 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-miterlimit: 10;
+                          }
+                          .st1 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st2 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st3 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st4 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st5 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st6 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st7 {
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st8 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st9 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st10 {
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-miterlimit: 10;
+                          }
+                          .st11 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st12 {
+                            stroke: #715ea6;
+                            stroke-width: 2.7781;
+                            stroke-miterlimit: 10;
+                          }
+                          .st13 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st14 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st15 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: bevel;
+                            stroke-miterlimit: 10;
+                          }
+                          .st16 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st17 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st18 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st19 {
+                            fill: #ffffff;
+                            stroke: #715fa6;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                        </style>
+                        <g>
+                          <path
+                            class="st1"
+                            d="M101.08,98.58L80.64,76.74H45.85L24.47,97.88c-0.57,0.48-1.16,0.89-1.77,1.25
+                       c-7.33,4.27-17.34,0.01-18.38-8.81c-0.03-0.23-0.05-0.86-0.06-1.57c-0.04-1.59,0.17-3.19,0.6-4.72l11.26-39.4
+                       c2.57-7.16,8.8-14.27,16.65-14.27h60.07c7.85,0,14.57,5.65,16.65,14.27l9.96,36.84c0,0.49,1.87,6.43,1.87,8.63
+                       C121.3,99.7,108.88,104.19,101.08,98.58z"
+                          />
+                          <line
+                            class="st2"
+                            x1="62.81"
+                            y1="27.97"
+                            x2="62.81"
+                            y2="3.59"
+                          />
+                          <circle class="st3" cx="45.05" cy="74.76" r="8.33" />
+                          <circle class="st3" cx="79.95" cy="74.76" r="8.33" />
+                          <line
+                            class="st4"
+                            x1="38.61"
+                            y1="43.49"
+                            x2="38.61"
+                            y2="60.94"
+                          />
+                          <line
+                            class="st4"
+                            x1="47.33"
+                            y1="52.21"
+                            x2="29.89"
+                            y2="52.21"
+                          />
+                          <circle class="st4" cx="75.99" cy="46.3" r="5.95" />
+                          <circle class="st4" cx="94.15" cy="54.99" r="5.95" />
+                        </g></svg
+                    ></span>
+                    <strong>단체관람</strong>
+                  </li>
+                  <li>
+                    <span class="img_svg">
+                      <svg
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 116.57 119.02"
+                        style="enable-background: new 0 0 116.57 119.02"
+                        xml:space="preserve"
+                      >
+                        <style type="text/css">
+                          .st0 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-miterlimit: 10;
+                          }
+                          .st1 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st2 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st3 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st4 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st5 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st6 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st7 {
+                            fill: #715ea6;
+                          }
+                          .st8 {
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st9 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st10 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st11 {
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-miterlimit: 10;
+                          }
+                          .st12 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st13 {
+                            stroke: #715ea6;
+                            stroke-width: 2.7781;
+                            stroke-miterlimit: 10;
+                          }
+                          .st14 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st15 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st16 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: bevel;
+                            stroke-miterlimit: 10;
+                          }
+                          .st17 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st18 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st19 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st20 {
+                            fill: #ffffff;
+                            stroke: #715fa6;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st77.st77 {
+                            stroke: #715fa6;
+                            stroke-width: 1;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                        </style>
+                        <g>
+                          <path
+                            class="st5"
+                            d="M103.83,92.82h-71.5c5.28,0,9.57,5.05,9.57,11.28c0,6.23-4.28,11.28-9.57,11.28h71.5
+		c5.28,0,9.57-5.05,9.57-11.28C113.4,97.87,109.12,92.82,103.83,92.82z"
+                          />
+                          <path
+                            class="st6"
+                            d="M41.89,104.09c0,6.23-4.28,11.28-9.57,11.28s-9.57-5.05-9.57-11.28V15.73"
+                          />
+                          <path
+                            class="st1"
+                            d="M103.83,14.74c0-6.23-4.28-11.28-9.57-11.28"
+                          />
+                          <path
+                            class="st1"
+                            d="M3.62,14.74c0-6.23,4.28-11.28,9.57-11.28s9.57,5.05,9.57,11.28H3.62z"
+                          />
+                          <line
+                            class="st1"
+                            x1="103.83"
+                            y1="92.82"
+                            x2="103.83"
+                            y2="14.74"
+                          />
+                          <line
+                            class="st1"
+                            x1="13.19"
+                            y1="3.47"
+                            x2="94.26"
+                            y2="3.47"
+                          />
+                          <g>
+                            <path
+                              class="st7 st77"
+                              d="M49.87,23.01h-8.14v5.22h6.8c0.63,0,1.1,0.14,1.41,0.42s0.47,0.66,0.47,1.13c0,0.47-0.16,0.85-0.47,1.13
+			s-0.78,0.42-1.41,0.42h-6.8v6.72c0,0.85-0.19,1.49-0.58,1.9c-0.39,0.41-0.88,0.62-1.48,0.62c-0.61,0-1.11-0.21-1.5-0.63
+			c-0.39-0.42-0.58-1.05-0.58-1.89V22.36c0-0.59,0.09-1.08,0.26-1.45s0.45-0.65,0.83-0.82c0.38-0.17,0.85-0.26,1.44-0.26h9.74
+			c0.66,0,1.15,0.15,1.47,0.44c0.32,0.29,0.48,0.67,0.48,1.15c0,0.48-0.16,0.87-0.48,1.16C51.02,22.86,50.53,23.01,49.87,23.01z"
+                            />
+                            <path
+                              class="st7 st77"
+                              d="M65.79,37.91l-0.97-2.56h-8.29l-0.97,2.61c-0.38,1.02-0.71,1.71-0.97,2.07c-0.27,0.36-0.71,0.54-1.32,0.54
+			c-0.52,0-0.98-0.19-1.38-0.57c-0.4-0.38-0.6-0.81-0.6-1.29c0-0.28,0.05-0.57,0.14-0.86s0.25-0.71,0.46-1.24l5.22-13.24
+			c0.15-0.38,0.33-0.84,0.54-1.37c0.21-0.53,0.43-0.98,0.67-1.33s0.55-0.64,0.93-0.86s0.86-0.33,1.43-0.33
+			c0.58,0,1.05,0.11,1.44,0.33s0.7,0.5,0.93,0.84c0.24,0.34,0.44,0.71,0.6,1.11s0.37,0.92,0.62,1.58l5.33,13.16
+			c0.42,1,0.63,1.73,0.63,2.18c0,0.47-0.2,0.91-0.59,1.3c-0.39,0.39-0.87,0.59-1.43,0.59c-0.33,0-0.6-0.06-0.83-0.17
+			c-0.23-0.12-0.43-0.27-0.58-0.47c-0.16-0.2-0.33-0.51-0.51-0.92C66.08,38.59,65.92,38.22,65.79,37.91z M57.61,32.25h6.09
+			l-3.07-8.42L57.61,32.25z"
+                            />
+                            <path
+                              class="st7 st77"
+                              d="M89.26,37.68c0.6,0.41,1.26,0.8,1.98,1.19s1.19,0.69,1.42,0.92c0.23,0.23,0.35,0.55,0.35,0.97
+			c0,0.3-0.14,0.59-0.41,0.89c-0.27,0.3-0.61,0.45-1,0.45c-0.32,0-0.7-0.1-1.15-0.31c-0.45-0.2-0.98-0.5-1.59-0.89
+			c-0.61-0.39-1.27-0.84-2-1.36c-1.34,0.69-3,1.03-4.95,1.03c-1.59,0-3.01-0.25-4.26-0.76c-1.26-0.51-2.31-1.23-3.17-2.18
+			c-0.85-0.95-1.5-2.08-1.93-3.39c-0.43-1.31-0.65-2.73-0.65-4.27c0-1.57,0.22-3,0.67-4.31s1.1-2.42,1.95-3.34
+			c0.85-0.92,1.89-1.62,3.12-2.11c1.22-0.49,2.61-0.73,4.17-0.73c2.11,0,3.93,0.43,5.45,1.29c1.52,0.86,2.66,2.08,3.44,3.66
+			s1.17,3.44,1.17,5.57C91.89,33.23,91.01,35.79,89.26,37.68z M86.02,35.43c0.57-0.66,1-1.44,1.27-2.34s0.41-1.94,0.41-3.13
+			c0-1.49-0.24-2.79-0.72-3.88c-0.48-1.09-1.17-1.92-2.07-2.48c-0.89-0.56-1.92-0.84-3.08-0.84c-0.83,0-1.59,0.16-2.29,0.47
+			c-0.7,0.31-1.3,0.76-1.81,1.36c-0.51,0.59-0.9,1.35-1.2,2.27c-0.29,0.92-0.44,1.96-0.44,3.11c0,2.35,0.55,4.15,1.64,5.42
+			s2.48,1.9,4.15,1.9c0.69,0,1.39-0.14,2.11-0.43c-0.44-0.32-0.98-0.65-1.63-0.97c-0.65-0.32-1.1-0.57-1.34-0.75
+			c-0.24-0.18-0.36-0.43-0.36-0.75c0-0.28,0.12-0.52,0.35-0.74c0.23-0.21,0.49-0.32,0.77-0.32C82.62,33.32,84.03,34.02,86.02,35.43z
+			"
+                            />
+                          </g>
+                          <line
+                            class="st8"
+                            x1="39.89"
+                            y1="56.43"
+                            x2="66.05"
+                            y2="56.43"
+                          />
+                          <line
+                            class="st8"
+                            x1="58.9"
+                            y1="70.92"
+                            x2="90.55"
+                            y2="70.92"
+                          />
+                        </g>
+                      </svg>
+                    </span>
+                    <strong>자주묻는 질문</strong>
+                  </li>
+                  <li>
+                    <span class="img_svg">
+                      <svg
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 112.79 124.16"
+                        style="enable-background: new 0 0 112.79 124.16"
+                        xml:space="preserve"
+                      >
+                        <style type="text/css">
+                          .st0 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-miterlimit: 10;
+                          }
+                          .st1 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st2 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st3 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st4 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st5 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st6 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st7 {
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st8 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st9 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st10 {
+                            stroke: #000000;
+                            stroke-width: 4.1671;
+                            stroke-miterlimit: 10;
+                          }
+                          .st11 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 4.1671;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st12 {
+                            stroke: #715ea6;
+                            stroke-width: 2.7781;
+                            stroke-miterlimit: 10;
+                          }
+                          .st13 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st14 {
+                            fill: #ffffff;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st15 {
+                            fill: #ffffff;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-linejoin: bevel;
+                            stroke-miterlimit: 10;
+                          }
+                          .st16 {
+                            fill: none;
+                            stroke: #715ea6;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                          }
+                          .st17 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st18 {
+                            fill: #ffffff;
+                            stroke: #010202;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                          .st19 {
+                            fill: #ffffff;
+                            stroke: #715fa6;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                          }
+                        </style>
+                        <g>
+                          <path
+                            class="st9"
+                            d="M73.91,80v31.97c0,4.5-3.68,8.19-8.19,8.19h-53.2c-4.5,0-8.19-3.68-8.19-8.19V12.73c0-4.5,3.68-8.19,8.19-8.19
+		h53.2c4.5,0,8.19,3.68,8.19,8.19v27.11"
+                          />
+                          <line
+                            class="st10"
+                            x1="4.34"
+                            y1="96.12"
+                            x2="73.91"
+                            y2="96.12"
+                          />
+                          <line
+                            class="st10"
+                            x1="4.34"
+                            y1="24.24"
+                            x2="73.91"
+                            y2="24.24"
+                          />
+                          <circle cx="39.12" cy="107.88" r="3.07" />
+                          <path
+                            class="st11"
+                            d="M102.87,43.17H69.65l-9.21,6.39l0.17-6.39h-3.9c-3.38,0-6.14-2.76-6.14-6.14V10.68
+		c0-3.38,2.76-6.14,6.14-6.14h46.16c3.38,0,6.14,2.76,6.14,6.14v26.35C109.01,40.41,106.25,43.17,102.87,43.17z"
+                          />
+                          <circle class="st12" cx="63.76" cy="24.24" r="1.83" />
+                          <circle class="st12" cx="79.79" cy="24.24" r="1.83" />
+                          <circle class="st12" cx="95.23" cy="24.24" r="1.83" />
+                        </g>
+                      </svg>
+                    </span>
+                    <strong>분실물 문의</strong>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <!-- help_box3 -->
+          </div>
+          <!-- .help end -->
+        </div>
+        <!-- .row end -->
+      </div>
+      <!-- .container end -->
+    </section>
+    <!-- #help -->
+
+    <footer id="footer">
+      <div id="footer_sns">
+        <div class="container">
+          <div class="footer_sns">
+            <ul>
+              <li class="icon s1">
+                <a href="#"><span class="ir">트위터</span></a>
+              </li>
+              <li class="icon s2">
+                <a href="#"><span class="ir">페이스북</span></a>
+              </li>
+              <li class="icon s3">
+                <a href="#"><span class="ir">인스타그램</span></a>
+              </li>
+              <li class="icon s4">
+                <a href="#"><span class="ir">구글플레이</span></a>
+              </li>
+              <li class="icon s5">
+                <a href="#"><span class="ir">아이폰앱스토어</span></a>
+              </li>
+            </ul>
+            <div class="tel">
+              <a href="#">ARS <em>1544-0070</em></a>
+            </div>
+          </div>
+        </div>
+        <!-- container -->
+      </div>
+      <!-- footer_sns -->
+      <div id="footer_infor">
+        <div class="container">
+          <div class="row">
+            <div class="footer_infor">
+              <h2><img src="img/logo_footer.png" alt="megabox" /></h2>
+              <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">제휴/광고/부대사업 문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">윤리경영</a></li>
+              </ul>
+              <address>
+                <p>
+                  서울특별시 강남구 도산대로 156, 2창 메가박스중앙(주)(논현동,
+                  중앙엠엔비사옥)<br />
+                  <span>대표자명 김진선</span>개인정보보호 책임자 경영지원시
+                  실장 박영진 <br />
+                  <span>사업자등록번호 211-86-59478</span>통신판매신고번호 제
+                  833호
+                </p>
+                <p>Copyright 2014 by MegaboxJoongAng Inc.All right Reserved</p>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer_infor -->
+    </footer>
+
+    <!-- 트레일러 -->
+    <div class="overlay" id="blackout">
+      <div id="trailerModal" class="modal">
+        <div id="trailer">
+          <!-- Youtube 플레이어를 대체하는 공간 -->
+        </div>
+      </div>
+      <button id="hideTrailer" class="modal_close">닫기</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/movie.js"></script>
+  </body>
+</html>
